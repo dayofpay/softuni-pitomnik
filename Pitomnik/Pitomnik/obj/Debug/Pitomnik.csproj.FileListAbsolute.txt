@@ -1,0 +1,6 @@
+c:\users\mbtbg\source\repos\Pitomnik\Pitomnik\bin\Debug\Pitomnik.exe
+c:\users\mbtbg\source\repos\Pitomnik\Pitomnik\bin\Debug\Pitomnik.pdb
+c:\users\mbtbg\source\repos\Pitomnik\Pitomnik\obj\Debug\Pitomnik.csprojAssemblyReference.cache
+c:\users\mbtbg\source\repos\Pitomnik\Pitomnik\obj\Debug\Pitomnik.csproj.CoreCompileInputs.cache
+c:\users\mbtbg\source\repos\Pitomnik\Pitomnik\obj\Debug\Pitomnik.exe
+c:\users\mbtbg\source\repos\Pitomnik\Pitomnik\obj\Debug\Pitomnik.pdb
