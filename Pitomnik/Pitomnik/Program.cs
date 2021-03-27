@@ -51,14 +51,14 @@ namespace Pitomnik
             if (option == "9")
             {
             Settings:
-                if (File.Exists("Settings.txt"))
+                if (File.Exists("Settings.txt")) // Ако файлът вече съществува, програмата няма да направи нищо
                 {
                     Console.WriteLine("Settings файла вече съществува...");
                     Thread.Sleep(1000);
                     Console.Clear();
                     goto Start;
                 }
-                else
+                else // Тази функция се задейства, когато програмата не открива Settings.txt файл във папката на програмата
                 {
                     string fileName = "Settings.txt";
                     using (StreamWriter sw = File.CreateText(fileName))
@@ -339,7 +339,7 @@ namespace Pitomnik
                         goto Start;
                     }
                 }
-                else
+                else // Тази функция се задейства, когато програмата открие действие, което не е декларирано в програмата и не може да бъде изпълнено.
                 {
                     MoreFunctions.Error();
                     goto Start;
